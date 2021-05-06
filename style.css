@@ -1,0 +1,258 @@
+* , *::before , *::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.nawpic.com/media/2020/dead-by-daylight-nawpic-10.jpg);
+    background-size: cover;
+    /* background-color: #443c6b; */
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,a {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+.contenedor {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    /* background-color: #2e2949; */
+}
+.listalink {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    width: 60%;
+}
+.elemento1 {
+    min-height: 50vh;
+    display: flex;
+    padding-left: 2em;
+    align-items: center;
+}
+.derecha {
+    margin-left: 2em;
+}
+.derecha h3 {
+    font-size: 1.5em;
+    color: cornsilk;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+.derecha h4 {
+    font-size: 5em;
+    color: white;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+.derecha p {
+    font-size: 1em;
+    color: cornsilk;
+    opacity: 0.5;
+    width: 85%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.elemento2 {
+    width: 900px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (2, auto);
+}
+.contenido2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.texto2 {
+    padding-left: 2em;
+    font-size: 15px;
+}
+.texto2 h3 {
+    font-size: 1em;
+    color: cornsilk;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.texto2 h4 {
+    font-size: 2em;
+    color: cornsilk;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.texto2 p {
+    font-size: 1em;
+    color: cornsilk;
+    opacity: 0.5;
+    width: 85%;
+    line-height: 1;
+    font-weight: 400;
+}
+.elemento3 {
+    display: flex;
+    max-width: auto;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 12em;
+}
+.izquierda3 {
+    width: 200px;
+    height: 500px;
+    position: relative;
+}
+.imagenarriba {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imagenabajo {
+    position: absolute;
+    right: -10em;
+    z-index: 10;
+}
+.imagenarriba img {
+    border-radius: 10%;
+}
+.imagenabajo img {
+    border-radius: 10%;
+}
+.derecha3 {
+    margin-left: 15em;
+    width: 50%;
+}
+.derecha3 h3 {
+    font-size: 2em;
+    color: cornsilk;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.derecha3 p {
+    font-size: 1em;
+    color: cornsilk;
+    opacity: 0.5;
+    width: 90%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.elemento4 {
+    display: flex;
+    max-width: auto;
+    align-items: center;
+    /* margin-top: 5em;
+    margin-left: 12em; */
+}
+.izquierda4 {
+    width: 60%;
+}
+.izquierda4 h3 {
+    font-size: 2em;
+    color: cornsilk;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.izquierda4 p {
+    font-size: 1em;
+    color: cornsilk;
+    opacity: 0.5;
+    width: 90%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.derecha4 img {
+    border-radius: 8%;
+}
+.elemento5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.contenido5 h3 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: white;
+}
+.contenido5 p {
+    font-size: 15px;
+    text-align: center;
+    color: cornsilk;
+    opacity: 0.5;
+}
+.elemento6 {
+    width: 650px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 6em;
+    margin-bottom: 10em;
+    border-radius: 1em;
+    /* background-color: #2e2949; */
+    display: grid;
+    grid-template-columns: (2, auto);
+    grid-template-rows: (2, auto);
+}
+
+.arriba6 {
+    text-align: center;
+    padding-top: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.arriba6 h3 {
+    text-align: center;
+    color: cornsilk;
+}
+.arriba6 p {
+    color: cornsilk;
+}
+.izquierda6 {
+    text-align: left;
+    padding-top: 3em;
+    padding-left: 1em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.izquierda6 h3 {
+    font-size: 1.5em;
+    color: cornsilk;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.izquierda6 p {
+    font-size: 15px;
+    line-height: 2;
+    color: cornsilk;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.derecha6 {
+    padding-top: 3.5em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.derecha6 img {
+    border-radius: 10%;
+}
